@@ -1,20 +1,20 @@
-### Description
+### 📝 Description
 
 The following project is based on the legendary C programming language. This project is based on simulating a real Shell with limited functions, I have done it for Holberton School as part of my final project for the first term of study.
 
-### For your installation and testing
+### 💾 For your installation and testing
 
 You can clone my repository in your working directory or download it directly to your PC. I recommend that you compile with GCC 9.3 or higher and with the following flags: -Wall -Wextra -Werror -pedantic -Wno-format.
 
-### Usage
+### 💻 Usage
 
-Once you compile you can run it or start the program independently and in interactive mode.
+Once you compile you can run it or start the program independently and in interactive mode or Non-Interactive Mode.
 
-#### Interactive Mode
+#### 🕹 Interactive Mode
 
 In interactive mode, simply run the program and wait for the prompt to appear. From there, you can type commands freely, exiting with either the "exit" command or ctrl-D.
 
-#### Non-Interactive Mode
+#### 🕹 Non-Interactive Mode
 
 In non-interactive mode, echo your desired command and pipe it into the program like this:
 
@@ -23,7 +23,7 @@ echo "ls" | ./shell
 ```
 
 
-#### Included Built-Ins
+#### ⌨ Included Built-Ins
 
 Our shell has support for the following built-in commands:
 
@@ -37,11 +37,11 @@ Our shell has support for the following built-in commands:
 | help [built-in]     | Read documentation for a built-in.                                                        |
 
 
-#### Outside Programs
+#### 📢 Outside Programs
 
 Our shell can run outside programs by typing their absolute paths (/bin/ls) or the executable name (ls), IF their directory is included in the PATH.
 
-### Examples
+### ✏ Examples
 
 ```sh
 $ ls -l
@@ -66,7 +66,7 @@ env: env
 	Print the environment.
 ```
 
-### Included Files
+### 📚 Included Files
 
 - main.c - functions for calling the shell and initializing the shell struct
 - shell.c - functions for running the basic shell logic
@@ -90,6 +90,6 @@ env: env
 - free.c - functions for freeing allocated memory
 - holberton.h - header file
 
-### Author
+### 👨‍💻 Author
 
 by [Cristian Betancur](https://twitter.com/cryptocoincanal) 
